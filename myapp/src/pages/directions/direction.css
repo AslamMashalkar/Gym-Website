@@ -1,0 +1,37 @@
+
+.direction__container {
+  text-align: center;
+  padding-top: 8rem;
+}
+
+
+.direction__container iframe {
+  width: 100%;
+  max-width: 800px;
+  height: 450px;
+  border: 2px solid #007bff; 
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out; 
+}
+
+
+.direction__container iframe:hover {
+  transform: scale(1.05);
+}
+
+
+.view-full-screen {
+  margin-top: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.view-full-screen:hover {
+  background-color: #0056b3;
+}

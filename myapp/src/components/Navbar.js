@@ -9,9 +9,12 @@ import { MdOutlineClose } from 'react-icons/md';
 const Navbar = () => {
   const [isNavShowing, setIsNavShowing] = useState(false);
 
-  // Function to scroll to the top of the page
+
   const scrollToTop = () => {
-    window.scrollTo(0, 0);
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
   };
 
   return (
